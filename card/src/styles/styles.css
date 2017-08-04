@@ -1,0 +1,66 @@
+body {
+  margin: auto;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+  background-color: #f1f1f1;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+img {
+
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+}
+
+.card {
+  width: 50%;
+  box-shadow: 2px 2px 5px #999;
+  background-color: white;
+  padding: 3%;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+}
+
+.name {
+  font-weight: 600;
+  color: #306db6;
+}
+
+.date {
+  color: #e95448;
+}
+
+.text {
+  color: #717171;
+}
+
+.likes {
+  font-weight: 600;
+  font-size: 1.5em;
+  color: #e95448;
+}
+
+.like {
+  width: 4%;
+  float:left;
+  margin-right: 1%;
+  margin-left: 85%;
+  margin-top: 1.25%;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 20%;
+  float:left;
+  margin-right: 2%;
+  margin-bottom: 0.5%;
+}
