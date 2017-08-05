@@ -37,16 +37,19 @@ img {
 
 .date {
   color: #e95448;
+  margin-bottom: 8%;
 }
 
 .text {
   color: #717171;
+  margin-bottom: 0;
 }
 
 .likes {
   font-weight: 600;
   font-size: 1.5em;
   color: #e95448;
+  margin-top: 0.5%;
 }
 
 .like {
@@ -54,7 +57,7 @@ img {
   float:left;
   margin-right: 1%;
   margin-left: 85%;
-  margin-top: 1.25%;
+  margin-top: 1%;
 }
 
 .avatar {
