@@ -1,0 +1,23 @@
+body {
+  margin:0;
+  padding:0;
+}
+
+h2,
+p {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.product-card {
+  width: 90%;
+  border: solid 1px grey;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.btn {
+  
+}
