@@ -1,3 +1,26 @@
+# Creación de una Tarjeta con React Create App
+
+## Descripción del ejercicio
+
+Para este ejercicio es necesario crear un proyecto con [Create React App](https://github.com/facebookincubator/create-react-app). El objetivo es **crear un componente de React** que genere una tarjeta con los elementos que se listan a continuación:
+
+- Nombre
+- Fecha
+- Texto
+- Imagen
+- Número de likes
+
+Este componente debe ser capaz de generar un código distinto en función de las propiedades que le sean dadas.
+Para comprobar que funciona correctamente, se crearan dos tarjetas con contenido distinto y se probará que el resultado es el deseado.
+
+El resultado final ha de ser lo más parecido posible a la tarjeta que se muestra en la imagen que se muestra a continuación.
+
+*Tarjeta de Ejemplo*
+
+![alt text](https://adalab.gitbooks.io/curso-de-react/content/assets/images/exercise_3_1.png "Tarjeta ejemplo")
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
@@ -1760,7 +1783,7 @@ If you’re using [Apache HTTP Server](https://httpd.apache.org/), you need to c
     RewriteRule ^ index.html [QSA,L]
 ```
 
-It will get copied to the `build` folder when you run `npm run build`. 
+It will get copied to the `build` folder when you run `npm run build`.
 
 If you’re using [Apache Tomcat](http://tomcat.apache.org/), you need to follow [this Stack Overflow answer](https://stackoverflow.com/a/41249464/4878474).
 
