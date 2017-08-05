@@ -5,11 +5,11 @@ class Product extends React.Component {
   render() {
     return (
       <div className='product-card'>
-        <h2>{this.props.productName}</h2>
-        <p>{this.props.description}</p>
-        <p>{this.props.price}</p>
-        <p>{this.props.quantity}</p>
-        <p>{this.props.category}</p>
+        <p className="quantity">{this.props.quantity} uds.</p>
+        <h2 className="product-name">{this.props.productName}</h2>
+        <p className="description">{this.props.description}</p>
+        <p className="price">{this.props.price} €</p>
+        <p className="category">{this.props.category}</p>
       </div>
     );
   }

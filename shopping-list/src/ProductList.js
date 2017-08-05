@@ -5,9 +5,7 @@ class ProductList extends React.Component {
     return (
       <ul className="product-list">
       {this.props.children}
-
       </ul>
-
     );
   }
 }

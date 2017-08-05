@@ -1,3 +1,26 @@
+
+# Creación de una Lista de la compra con React Create App
+
+## Descripción del ejercicio
+
+Para este ejercicio es necesario crear un proyecto con [Create React App](https://github.com/facebookincubator/create-react-app).El objetivo es **crear una lista de la compra** con los productos que hemos comprado. Mostraremos los siguientes campos por cada producto comprado:
+
+- **Nombre del artículo** (obligatorio)
+- **Cantidad** (obligatorio)
+- **Categoría** (obligatorio)
+- **Descripción** (opcional)
+- **Precio** (obligatorio)
+
+Cada producto tendrá que tener siempre **información necesaria** para los **campos obligatorios** como si esa información nos llegase de una petición a un servidor. En el caso de la **descripción**, cuyo valor es opcional, el servidor puede devolver o no un valor y mostraremos por defecto un mensaje de *"No hay descripción"* cuando no exista un valor para este campo.
+
+La lista también tendrá que tener un botón que, al ser pulsado, muestre el **precio total de la compra**.
+
+El resultado final debe ser parecido al de la imagen que se muestra a continuación.
+
+![alt text](https://adalab.gitbooks.io/curso-de-react/content/assets/images/exercise_4_1.png "Lista de la compra de ejemplo")
+
+___
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
@@ -1760,7 +1783,7 @@ If you’re using [Apache HTTP Server](https://httpd.apache.org/), you need to c
     RewriteRule ^ index.html [QSA,L]
 ```
 
-It will get copied to the `build` folder when you run `npm run build`. 
+It will get copied to the `build` folder when you run `npm run build`.
 
 If you’re using [Apache Tomcat](http://tomcat.apache.org/), you need to follow [this Stack Overflow answer](https://stackoverflow.com/a/41249464/4878474).
 
