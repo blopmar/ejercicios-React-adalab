@@ -11,6 +11,7 @@ Para este ejercicio es necesario crear un proyecto con [Create React App](https:
 - Número de likes
 
 Este componente debe ser **capaz de generar un código distinto** en función de las **propiedades que le sean dadas**.
+
 Para comprobar que funciona correctamente, se crearan dos tarjetas con contenido distinto y se probará que el resultado es el deseado.
 
 El resultado final ha de ser lo más parecido posible a la tarjeta que se muestra en la imagen que se muestra a continuación.
@@ -18,6 +19,7 @@ El resultado final ha de ser lo más parecido posible a la tarjeta que se muestr
 ![alt text](https://adalab.gitbooks.io/curso-de-react/content/assets/images/exercise_3_1.png "Tarjeta ejemplo")
 
 ___
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
