@@ -12,11 +12,11 @@ Para este ejercicio es necesario crear un proyecto con [Create React App](https:
 
 Este componente debe ser **capaz de generar un código distinto** en función de las **propiedades que le sean dadas**.
 
-Para comprobar que funciona correctamente, se crearan dos tarjetas con contenido distinto y se probará que el resultado es el deseado.
+Para comprobar que funciona correctamente, se crearan **dos tarjetas** con contenido distinto y se probará que el resultado es el deseado.
 
 El resultado final ha de ser lo más parecido posible a la tarjeta que se muestra en la imagen que se muestra a continuación.
 
-![alt text](https://adalab.gitbooks.io/curso-de-react/content/assets/images/exercise_3_1.png "Tarjeta ejemplo")
+![alt text](https://github.com/blopmar/ejercicios-React-adalab/blob/master/card/src/images/exercise_3_1_card.png "Tarjeta ejemplo")
 
 ___
 
