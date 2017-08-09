@@ -14,6 +14,10 @@ li{
   display: inline-block;
 }
 
+h3 {
+  font-size: 1.5em;
+}
+
 .pokecard{
    display: inline-block;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -21,6 +25,7 @@ li{
    margin: 2%;
    min-width: 200px;
    text-align: center;
+   text-transform: capitalize;
    border: solid 1px #717171;
    border-radius: 4%;
  }

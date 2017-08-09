@@ -27,7 +27,7 @@ class App extends Component {
 
   filterPokemon(){
     return this.state.pokemonInfo.filter(
-      pokemon => pokemon.name.includes(this.state.filter)
+      pokemon => pokemon.name.toLowerCase().includes(this.state.filter.toLowerCase())
     )
   }
 
